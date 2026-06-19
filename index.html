@@ -59,7 +59,7 @@
     .cover-hero .cover-cta{
       position:static;
       background:var(--navy);
-      padding:20px 16px 28px;
+      padding:24px 20px 32px;
       flex-direction:column;
       align-items:stretch;
       gap:12px;
@@ -71,17 +71,17 @@
       width:100%;
       text-align:center;
       font-size:16px;
-      padding:14px 20px;
+      padding:16px 20px;
+      max-width:none;
+      box-sizing:border-box;
     }
-    .cover-hero .btn-outline{
-      background:transparent;
-      border:2px solid rgba(255,255,255,.6);
-      backdrop-filter:none;
-      text-shadow:none;
+    .cover-hero .btn-primary{
+      box-shadow:0 4px 16px rgba(250,193,33,.3);
     }
     .cover-hero .btn-secondary{
-      background:rgba(255,255,255,.12);
-      border:2px solid rgba(255,255,255,.25);
+      background:rgba(255,255,255,.08);
+      border:2px solid rgba(255,255,255,.3);
+      box-shadow:none;
     }
   }
   /* ---------- hero scroll arrow ---------- */
@@ -323,7 +323,7 @@
     .brand img{height:32px!important;}
 
     /* --- hero --- */
-    .btn{font-size:15px;padding:12px 24px;width:100%;max-width:320px;}
+    .btn{font-size:15px;padding:12px 24px;}
 
     /* --- section heads --- */
     .section-head{margin-bottom:32px;}
