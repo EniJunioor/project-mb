@@ -748,7 +748,8 @@
       <div class="chant reveal">
         <span>É</span> <span>5!</span> <span>É</span> <span>4!</span>
       </div>
-      <a class="btn btn-primary reveal" href="https://suno.com/s/MJyv9U973TkCGRr8" target="_blank" rel="noopener">Ouvir o jingle completo</a>
+      <a class="btn btn-primary reveal" href="#" id="jingleBtn" onclick="event.preventDefault();var a=document.getElementById('jingleAudio');if(a.paused){a.play();this.textContent='Pausar jingle';}else{a.pause();this.textContent='Ouvir o jingle completo';}">Ouvir o jingle completo</a>
+      <audio id="jingleAudio" src="assets/jingle.mpeg" preload="none"></audio>
     </div>
   </section>
 
